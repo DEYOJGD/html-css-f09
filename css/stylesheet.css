@@ -124,6 +124,101 @@ header {
     width: 50%;
 }
 
+/* css service*/
+.service {
+   max-width:1200px; 
+   height:500px;
+   background-color:#d3d3d3;
+}
+.container-service {
+    width:100%;
+    height:500px;
+    margin:auto;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+
+.container-service h1,h2{
+    color: #ffa500;
+    
+}
+
+.container-service h1 {
+    font-size: 35px;
+    padding-top:20px;
+}
+
+.container-service h2 {
+    font-size: 15px;
+}
+
+.content-service{
+
+}
+
+.content-service ul {
+    width: 100%;
+
+
+}
+
+.content-service ul li {
+    float:left;
+    padding: 5px 5px;
+    list-style-type: none;
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position:relative;
+
+}
+
+.content-service ul li img {
+    background:#FFF;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: : 10px 5px;
+}
+
+.content-service ul li p {
+    position:absolute;
+    top:80px;
+    width:100%;
+    color:white;
+    text-shadow: 3px 2px 1px grey;
+    font-weight: bold;
+}
+
+.content-service-dua ul {
+    width: 100%;
+}
+
+.content-service-dua ul li {
+    float:left;
+    padding: 5px 5px;
+    list-style-type: none;
+    width: 25%;
+    position: relative;
+}
+
+.content-service-dua ul li img {
+    background:#FFF;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: : 10px 5px;
+}
+
+.content-service-dua ul li p {
+    position:absolute;
+    top:80px;
+    width:100%;
+    color:white;
+    text-shadow: 3px 2px 1px grey;
+    font-weight: bold;
+}
+
 /*css our team*/
 .team-grup {
     padding-bottom: 80px;
